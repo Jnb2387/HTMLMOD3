@@ -1,0 +1,30 @@
+//CSS Layout Properties\\
+
+box-sizing
+    -has to do with the box model is CSS.
+    -Changes what parts of the box model are included in the dimensions.
+    
+display
+    -All elements are either block or inline
+        -block: takes up full width, line breaks before and after
+        -inline:wraps contnet
+    -used to change the display type of the elements
+    -allows us to set a display type of inline-block
+    
+position
+    -4 types of positioning
+    -often used with coordinate CSS properties
+        1. static- what all elements have by default.(elements are not positioned)
+        2.relative- doesnt change where the element takes up space, only wher it is rendered.
+        3.fixed- postitioned with respect to the window. stays with user as they scroll.
+        4.absolute- positioned with respect to their closest positioned ancestor (or the body)
+            absolutely positioned items are removed from the document flow, other things will move
+            in its place.
+
+floats
+    -is used to wrap content from around other elements around themselves.
+    -can float an element left or right.
+    -clear/overflow properties used with float
+        -clear: designed to prevent an element from sharing space with a floated element. Left, right
+        -overflow: typically used to control overflowing content, also used to change float interactions
+        

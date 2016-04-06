@@ -1,0 +1,40 @@
+/*body{
+    background-color: peachpuff;
+}*/
+*{
+    box-sizing:border-box;
+}
+
+.box{
+    height:150px;
+    width:150px;
+    background-color: burlywood;
+    display:inline-block;
+    border:2px solid black;
+    margin:10px;
+}
+
+.super-box{
+    position:absolute;
+    top:50px;
+    bottom:;
+    left:200px;
+    right:;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:rgba(42,173,204,0.5);
+}
+.box-container{
+    background-color:blue;
+}
+
+.image{
+    height:80px;
+    width:80px;
+    background-color:purple;
+    float:left;
+}

@@ -1,0 +1,54 @@
+/*Nav bar*/
+.navbar{
+   max-width: width: 960px;
+    text-align: center;
+}
+
+.navbar li{
+    list-style: none;
+    display:inline;
+}
+
+.navbar a{
+    color:red;
+}
+
+/*gallery*/
+.gallery{
+    display:inline;
+}
+
+@media screen and (max-width: 960px) {
+    .big img{
+        width:100%;}
+    body {
+        background-color:grey;}
+    }
+    .navbar{
+        padding:20px;
+    }
+@media screen and (max-width:400px) {
+    .navbar li{
+        display:block;
+    }
+}
+@media screen and (max-width:400px) {
+    .gallery img{
+        display:block;
+    }
+}
+
+
+
+
+
+
+
+
+html{
+    font-size: 20px;
+}
+
+/*body{*/
+    /*font-weight: bold;*/
+/*}*/
